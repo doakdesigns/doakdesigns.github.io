@@ -1,0 +1,243 @@
+/* styles.css */
+
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4f7942; /* A deep forest green */
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url('../images/hero-wood.jpg') no-repeat center center/cover;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background: #feca57; /* a warm accent color */
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ffb733;
+}
+
+/* INFO SECTION */
+.info {
+  padding: 2rem;
+  text-align: center;
+}
+
+.info h2 {
+  margin-bottom: 1rem;
+}
+
+.info p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-section h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-section ul {
+  margin-left: 1.2rem;
+  list-style: disc;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio-section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portfolio-section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.portfolio-section p {
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.gallery-item {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  width: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-section h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.contact-section p {
+  margin-bottom: 1.5rem;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* FOOTER */
+footer {
+  background: #4f7942;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* MEDIA QUERIES (responsive design) */
+@media (max-width: 768px) {
+  .nav-links li {
+    margin-left: 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-item {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
