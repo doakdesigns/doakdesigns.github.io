@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>dOAK Designs – Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">dOAK Designs</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Breathing new life into old wood—one imperfect piece at a time.</h1>
+      <p>Welcome! I’m the maker behind dOAK Designs, transforming what some call “junk” wood into charming furniture and décor.</p>
+      <a class="btn" href="portfolio.html">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- INFO SECTION -->
+  <section class="info">
+    <h2>Why Reclaimed Wood?</h2>
+    <p>There's magic in turning beaten-up, discarded wood into functional, beautiful pieces. Imperfections are part of the story—and I’m here to celebrate them.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 dOAK Designs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
